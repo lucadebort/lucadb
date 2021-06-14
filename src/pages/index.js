@@ -1,4 +1,5 @@
 import * as React from 'react'
+import "../styles/styles.scss"
 import Layout from '../components/layout'
 
 const IndexPage = () => {

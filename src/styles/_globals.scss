@@ -1,0 +1,8 @@
+  //100% viewport height trick
+  html, body, #___gatsby, #gatsby-focus-wrapper {
+    height: 100%;
+}
+
+body {
+    background-color: red;
+}
