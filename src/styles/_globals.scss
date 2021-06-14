@@ -3,6 +3,10 @@
     height: 100%;
 }
 
+html {
+    overflow-y: auto;
+  }
+
 body {
-    background-color: red;
+    background-color: rgb(217, 0, 255);
 }
