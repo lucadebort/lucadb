@@ -34,4 +34,7 @@ module.exports = {
       __key: "pages",
     },
   ],
+  flags: {
+    THE_FLAG: false
+  }
 };
