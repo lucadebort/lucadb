@@ -22,7 +22,7 @@
     "gatsby-plugin-manifest": "^3.10.0",
     "gatsby-plugin-mdx": "^2.7.1",
     "gatsby-plugin-preload-fonts": "^2.7.1",
-    "gatsby-plugin-react-helmet": "^4.7.1",
+    "gatsby-plugin-react-helmet": "^4.10.0",
     "gatsby-plugin-sass": "^4.7.1",
     "gatsby-plugin-sharp": "^3.7.1",
     "gatsby-source-filesystem": "^3.7.1",
