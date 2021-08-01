@@ -50,9 +50,8 @@ const BlogPage = () => {
               <div>
                 <h4>{post.node.title}</h4>
                 {/* {allMediumPost.edges[0].node.image && ( */}
-                <img
+                <img style={{ backgroundSize: "cover", height: "auto", maxHeight: "320px"}}
                   src={`${MEDIUM_CDN}/${post.node.virtuals.previewImage.imageId}`}
-                  height="200px"
                   alt={allMediumPost.edges[0].node.image}
                 />
                 {/* )} */}
