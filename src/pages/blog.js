@@ -9,7 +9,7 @@ const MEDIUM_URL = "https://medium.com"
 const BlogPage = () => {
 
   return (
-    <Layout pageTitle="blog">
+    <Layout pageTitle="blog" title="blog" description="articoli, blog, risorse, brutti versi e altra roba">
       <h2>stuff I write</h2>
       <p>articles, resources, blog posts, bad poems and other stuff</p>
 
