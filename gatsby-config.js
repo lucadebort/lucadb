@@ -33,6 +33,12 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: 'gatsby-source-medium',
+      options: {
+        username: '@lucadebort', // Medium user name
+      },
+    },
   ],
   flags: {
     THE_FLAG: false
