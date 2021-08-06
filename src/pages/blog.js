@@ -68,7 +68,6 @@ const BlogPage = () => {
         </div>
       )}
     />
-  <p>So, was it that easy?</p>
     </Layout>
   )
 }
