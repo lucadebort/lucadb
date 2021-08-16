@@ -10,7 +10,6 @@ module.exports = {
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
-    "gatsby-transformer-remark",
     "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
@@ -31,6 +30,14 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/blog`,
+      },
+    },
+    "gatsby-transformer-remark",
     {
       resolve: 'gatsby-source-medium',
       options: {
