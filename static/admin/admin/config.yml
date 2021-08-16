@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: lucadebort/luca-db
+  repo: lucadebort/lucadb
   branch: main
 
 media_folder: static/assets
