@@ -1,8 +1,8 @@
 ---
-path: allora
+path: progetto 1
 date: 2021-08-16T16:04:19.742Z
-title: questo va?
+title: Progetto 1
 seoTitle: Progetto 1
-seoDesc: quello che g'ho fatto per?
+seoDesc: Description progetto 1
 ---
 boh
