@@ -26,7 +26,7 @@ export default function Template({
 
 export const pageQuery = graphql`
   query($id: String!) {
-    markdownRemark(fileAbsolutePath: {regex: "\\/projects/"}, id: { eq: $id }) {
+    markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
