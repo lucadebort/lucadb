@@ -18,3 +18,15 @@ collections:
       - { name: seoTitle, label: SEOTitle }
       - { name: seoDesc, label: SEODesc }  
       - { name: body, label: Body, widget: markdown }
+  
+  - name: blog
+    label: Blog
+    folder: blog
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: seoTitle, label: SEOTitle, required: false }
+      - { name: seoDesc, label: SEODesc, required: false }  
+      - { name: body, label: Body, widget: markdown, required: false }
