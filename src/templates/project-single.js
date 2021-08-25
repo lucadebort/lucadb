@@ -27,7 +27,7 @@ query ($id: String) {
     markdownRemark(id: {eq: $id}) {
       id
       frontmatter {
-        date
+        date(formatString: "MMMM DD, YYYY")
         path
         seoDesc
         seoTitle
