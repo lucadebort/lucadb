@@ -11,7 +11,7 @@ authors:
     description: Dolor sir olet
 pbody:
   - name: titoletto
-    description: lorem upsum
+    description: "![](/assets/screenshot-2021-08-23-124734.png)"
   - name: titolo 2
     description: dolor sit amet
 ---
