@@ -7,13 +7,13 @@ export default function ProjectTemplate({ data }) {
   const { frontmatter, html } = data.markdownRemark
   return (
     <Layout title={frontmatter.seoTitle ? frontmatter.seoTitle : frontmatter.title} description={frontmatter.seoDesc}>
-    <div className="blog-single-container">
-      <div className="blog-single-post">
+    <div className="project-container">
+      <div className="project-post">
         <h1>{frontmatter.title}</h1>
         <h2>{frontmatter.date}</h2>
         <h3>PROGETTO!</h3>
         <div
-          className="blog-single-content"
+          className="project-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>

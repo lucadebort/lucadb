@@ -1,19 +1,17 @@
 import React from "react"
-import "../../styles/styles.scss"
-import Layout from '../../components/layout'
+import "../styles/styles.scss"
+import Layout from '../components/layout'
 import { graphql } from "gatsby"
 
-export default function Template({
-  data, // this prop will be injected by the GraphQL query below.
-}) {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark
+export default function BlogTemplate({ data }) {
+  const { frontmatter, html } = data.markdownRemark
   return (
     <Layout title={frontmatter.seoTitle ? frontmatter.seoTitle : frontmatter.title} description={frontmatter.seoDesc}>
     <div className="blog-single-container">
       <div className="blog-single-post">
         <h1>{frontmatter.title}</h1>
         <h2>{frontmatter.date}</h2>
+        <h3>Blog!</h3>
         <div
           className="blog-single-content"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -24,17 +22,19 @@ export default function Template({
   )
 }
 
-export const pageQuery = graphql`
-  query($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
+export const query = graphql`
+query ($id: String) {
+    markdownRemark(id: {eq: $id}) {
+      id
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path
-        title
-        seoTitle
         seoDesc
+        seoTitle
+        title
       }
+      html
     }
   }
+  
 `
