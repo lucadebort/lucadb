@@ -5,8 +5,3 @@ title: Questo è un post blog
 seoTitle: blog 1
 seoDesc: desc blog 1
 ---
-![]()
-
-```
-
-```
