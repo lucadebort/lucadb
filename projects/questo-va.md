@@ -9,5 +9,10 @@ authors:
     description: Lorem upsim
   - name: Titolo 2
     description: Dolor sir olet
+pbody:
+  - name: titoletto
+    description: lorem upsum
+  - name: titolo 2
+    description: dolor sit amet
 ---
 boh
