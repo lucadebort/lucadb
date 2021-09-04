@@ -15,9 +15,22 @@ paragraphs:
 
       ### E questo?
   - titoletto: Analisi preliminare
-    testo: Our solutions should be based on the way humans think, rather than how
-      computers work. This is to support their intuitive understanding of how
-      the tool works.
+    testo: >-
+      ## provaIniziamo da qui
+
+
+      Our solutions s**hould be based o**n the way humans think, rather than how computers work. This is to support their intuitive understanding of how the tool works.
+
+
+      * Fammi vedere un po'
+
+      * Funziona davvero?
+
+
+      ![](/assets/screenshot-2021-08-23-124734.png)
+
+
+      ah beh, adesso vediamo
 ---
 uffa
 
