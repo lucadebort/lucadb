@@ -2,6 +2,7 @@ import React from "react"
 import "../styles/styles.scss"
 import Layout from '../components/layout'
 import { graphql } from "gatsby"
+import MarkdownContent from "../components/markdownContent"
 
 export default function ProjectTemplate({ data }) {
   const { frontmatter, html } = data.markdownRemark
@@ -12,11 +13,16 @@ export default function ProjectTemplate({ data }) {
         <h1>{frontmatter.title}</h1>
         <h2>{frontmatter.date}</h2>
         <h3>PROGETTO!</h3>
-        <div
-          className="project-content"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-      </div>
+        
+
+      {frontmatter.paragraphs.map((paragraph, index) => (
+          <div className="paragraph" key={index}>
+          <h2> {paragraph.titoletto} </h2>
+          <MarkdownContent content= {paragraph.testo} />
+          </div>
+
+          ))}
+      </div>      
     </div>
     </Layout>
   )
@@ -32,6 +38,10 @@ query ($id: String) {
         seoDesc
         seoTitle
         title
+        paragraphs {
+          titoletto
+          testo
+        }
       }
       html
     }

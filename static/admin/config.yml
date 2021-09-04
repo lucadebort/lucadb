@@ -17,6 +17,12 @@ collections:
       - { name: title, label: Title }
       - { name: seoTitle, label: SEOTitle }
       - { name: seoDesc, label: SEODesc }  
+      - label: "Paragraphs"
+        name: "paragraphs"
+        widget: "list"
+        fields:
+          - {label: Titoletto, name: titoletto, widget: string, default: ""}
+          - {label: Testo, name: testo, widget: markdown}
       - { name: body, label: Body, widget: markdown }
   
   - name: blog
