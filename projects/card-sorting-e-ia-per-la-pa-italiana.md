@@ -22,3 +22,13 @@ paragraphs:
 uffa
 
 **uffa**
+
+
+
+Un grande istituto italiano (**5.000.000** di visite uniche mensili), sollecitato anche dai molti feedback ricevuti dagli utenti, desiderava offrire una fruizione migliore agli utenti.
+
+### E questo?
+
+
+
+Our solutions should be based on the way humans think, rather than how computers work. This is to support their intuitive understanding of how the tool works.
