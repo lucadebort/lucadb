@@ -11,7 +11,7 @@ const ProjectsPage = () => {
       <h2>things i have been working on</h2>
       <p>apps redesign, card sortings, semiotics analysys and so on</p>
 
-      <h3>from my Medium publication:</h3>
+      <h3>Selected projects:</h3>
 
       <StaticQuery
       query={graphql`
@@ -34,7 +34,7 @@ const ProjectsPage = () => {
           {allMarkdownRemark.edges.map(post => (
           <Link to={post.node.frontmatter.path} key={post.node.id}>
               <div>
-                <h4>{post.node.frontmatter.title}</h4>
+                <h4>{post.node.frontmatter.title} →</h4>
               </div>
             </Link>
           ))}

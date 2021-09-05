@@ -16,14 +16,18 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: seoTitle, label: SEOTitle }
-      - { name: seoDesc, label: SEODesc }  
+      - { name: seoDesc, label: SEODesc }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: ["information architecture"]  
+      - { name: intro, label: Intro, widget: markdown }
       - label: "Paragraphs"
         name: "paragraphs"
         widget: "list"
         fields:
           - {label: Titoletto, name: titoletto, widget: string, default: ""}
           - {label: Testo, name: testo, widget: markdown}
-      - { name: body, label: Body, widget: markdown }
   
   - name: blog
     label: Blog

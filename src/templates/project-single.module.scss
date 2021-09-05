@@ -1,0 +1,36 @@
+.projectcontainer {
+    padding-top: 20%;
+
+    .project-tag {
+        display: inline;
+        margin-right: 20px;
+        padding: 2px 4px;
+        border: 1px solid #ccc; 
+        font-variant: small-caps;
+        font-weight: 700;
+    }
+
+    .project-date {
+        display: inline;
+    }
+
+    .project-intro p {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        margin-top: 20px;
+    }
+    .paragraph {
+        display: grid;
+        grid-template-columns: 20% 70%;
+        grid-column-gap: 5%;
+
+        .titoletto {
+            font-size: 12px;
+            text-align: right;
+        }
+    }
+}
+a, a:visited {
+    color: white !important;
+    text-decoration: none;
+}
