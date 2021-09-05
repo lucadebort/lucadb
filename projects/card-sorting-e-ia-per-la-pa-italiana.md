@@ -7,6 +7,8 @@ seoDesc: Mappare le associazioni mentali degli utenti per mettere a punto una
   nuova architettura dell’informazione su cui disegnare la nuova UI.
 tags:
   - information architecture
+intro: Mappare le **associazioni mentali** degli utenti per mettere a punto una
+  **nuova architettura dell’informazione** su cui disegnare la nuova UI.
 paragraphs:
   - titoletto: Intro
     testo: >-
