@@ -11,13 +11,9 @@ intro: Mappare le **associazioni mentali** degli utenti per mettere a punto una
   **nuova architettura dell’informazione** su cui disegnare la nuova UI.
 paragraphs:
   - titoletto: Intro
-    testo: >-
-      Un grande istituto italiano (**5.000.000** di visite uniche mensili),
+    testo: Un grande istituto italiano (**5.000.000** di visite uniche mensili),
       sollecitato anche dai molti feedback ricevuti dagli utenti, desiderava
       offrire una fruizione migliore agli utenti.
-
-
-      ### E questo?
   - titoletto: Analisi preliminare
     testo: >-
       ## provaIniziamo da qui
@@ -29,9 +25,6 @@ paragraphs:
       * Fammi vedere un po'
 
       * Funziona davvero?
-
-
-      ![](/assets/screenshot-2021-08-23-124734.png)
 
 
       ah beh, adesso vediamo
