@@ -53,7 +53,6 @@ query ($id: String) {
           testo
         }
       }
-      html
     }
   }
   

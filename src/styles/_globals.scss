@@ -8,6 +8,17 @@ html {
   }
 
 body {
-    background-color: #375AD9;
-    color: #F6F7FD;
+    /*background-color: #375AD9;
+    color: #F6F7FD;*/
+    background-color: #fff;
+    color: #333;
+
+    a, a:visited {
+      color:000;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
 }
